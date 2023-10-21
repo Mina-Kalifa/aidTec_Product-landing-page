@@ -1,0 +1,103 @@
+body {
+    width: 80%;
+    margin: 15px auto;
+    height: 100vh;
+    background-color: rgb(232, 249, 251);
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 30px;
+}
+
+.nav {
+    width: 459px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.content {
+    margin-top: 70px;
+}
+
+span {
+    font-size: 50px;
+}
+
+.title {
+    border-left: 10px solid red;
+    padding-left: 20px;
+}
+
+
+.price-and-button {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+.buy-now-button {
+    background-color: #ec0404e0;
+    color: white;
+    border: none;
+    width: 145px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buy-now-button:hover {
+    background-color: #45a049;
+}
+
+.content-photo img {
+    width: 412px;
+    height: 302px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: burlywood;
+}
+
+footer {
+    width: 100%;
+    margin-top: 245px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+}
+
+footer img {
+    width: 15px;
+    height: 15px;
+    margin-right: 44px;
+}
